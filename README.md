@@ -30,7 +30,7 @@ Rho-1: Not All Tokens Are What You Need
 
 ## 🔥 News
 
-- [2024/04/12] 🔥🔥🔥 Rho-Math-v0.1 models released at [🤗 HuggingFace](https://huggingface.co/TODO)! 
+- [2024/04/12] 🔥🔥🔥 Rho-Math-v0.1 models released at 🤗 HuggingFace! 
     - [Rho-Math-1B](https://huggingface.co/microsoft/rho-math-1b-v0.1) and [Rho-Math-7B](https://huggingface.co/microsoft/rho-math-7b-v0.1) achieve 15.6% and 31.0% few-shot accuracy on MATH dataset — matching DeepSeekMath with only 3\% of the pretraining tokens.
     - [Rho-Math-1B-Interpreter](https://huggingface.co/microsoft/rho-math-1b-interpreter-v0.1) is the first 1B LLM that achieves over 40% accuracy on MATH.
     - [Rho-Math-7B-Interpreter](https://huggingface.co/microsoft/rho-math-7b-interpreter-v0.1) achieves 52% on MATH dataset, using only 69k samples for fine-tuning.
