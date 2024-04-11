@@ -75,13 +75,13 @@ Rho-1 employs Selective Language Modeling (SLM), which selectively trains on cle
 cd rho-1/math-evaluation-harness
 ```
 
-Base model evaluation:
+Base model few-shot evaluation:
 
 ```sh
-bash scripts/run_eval.sh cot microsoft/rho-math-1b-v0.1
+bash scripts/run_eval.sh cot microsoft/rho-math-7b-v0.1
 ```
 
-SFT (code-interpreter) model evaluation:
+SFT model (code-interpreter) evaluation:
 
 ```sh
 bash scripts/run_eval.sh tora microsoft/rho-math-7b-interpreter-v0.1
