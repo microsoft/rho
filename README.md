@@ -8,7 +8,7 @@ Rho-1: Not All Tokens Are What You Need
 
 <div align="center">
 
-![](https://img.shields.io/badge/Model-Release%20Soon-blue)
+![](https://img.shields.io/badge/Model-Released-blue)
 ![](https://img.shields.io/badge/Code%20License-MIT-green)
 
 </div>
@@ -16,7 +16,7 @@ Rho-1: Not All Tokens Are What You Need
 <p align="center">
   <a href="https://microsoft.github.io/rho/rho-1.pdf"><b>[📜 Paper]</b></a> •
   <!-- <a href="https://arxiv.org/abs/TODO"><b>[📜 Paper]</b></a> • -->
-  <!-- <a href="https://huggingface.co/TODO"><b>[🤗 HF Models]</b></a> • -->
+  <a href="https://huggingface.co/microsoft/rho-math-1b-v0.1"><b>[🤗 HF Models]</b></a> •
   <a href="https://github.com/microsoft/rho"><b>[🐱 GitHub]</b></a>
   <!-- <a href="https://twitter.com/TODO"><b>[🐦 Twitter]</b></a> -->
 </p>
@@ -30,17 +30,17 @@ Rho-1: Not All Tokens Are What You Need
 
 ## 🔥 News
 
-<!-- - [2024/04/12] 🔥🔥🔥 Rho-Math-v0.1 models released at [🤗 HuggingFace](https://huggingface.co/TODO)! -->
+- [2024/04/12] 🔥🔥🔥 Rho-Math-v0.1 models released at [🤗 HuggingFace](https://huggingface.co/TODO)! 
+    - [Rho-Math-1B](https://huggingface.co/microsoft/rho-math-1b-v0.1) and [Rho-Math-7B](https://huggingface.co/microsoft/rho-math-7b-v0.1) achieve 15.6% and 31.0% few-shot accuracy on MATH dataset — matching DeepSeekMath with only 3\% of the pretraining tokens.
+    - [Rho-Math-1B-Interpreter](https://huggingface.co/microsoft/rho-math-1b-interpreter-v0.1) is the first 1B LLM that achieves over 40% accuracy on MATH.
+    - [Rho-Math-7B-Interpreter](https://huggingface.co/microsoft/rho-math-7b-interpreter-v0.1) achieves 52% on MATH dataset, using only 69k samples for fine-tuning.
 - [2024/04/11] Rho-1 paper and repo released.
-- [2024/04/11] 🔥🔥🔥 Rho-1-1B is the first 1B LLM that achieves over 40% accuracy on MATH dataset.
 
 
 ## 💡 Introduction
 
 Rho-1 employs Selective Language Modeling (SLM), which selectively trains on clean and useful tokens that aligned with the desired distribution.
 
-- When continual pretraining on 15B OpenWebMath corpus, Rho-1 yields an absolute improvement in few-shot accuracy of up to 30% in 9 math tasks.
-- After fine-tuning, Rho-1 1B and 7B achieved state-of-the-art results of 40.6\% and 51.8\% on MATH dataset, respectively — matching DeepSeekMath with only 3\% of the pretraining tokens.
 
 ### Selective Lanugage Modeling (SLM)
 
@@ -68,7 +68,26 @@ Rho-1 employs Selective Language Modeling (SLM), which selectively trains on cle
 
 ## 🚀 Quick Start
 
-Code and models will be release within the next few days. Stay tuned!
+
+### Evaluation
+
+```sh
+cd rho-1/math-evaluation-harness
+```
+
+Base model evaluation:
+
+```sh
+bash scripts/run_eval.sh cot microsoft/rho-math-1b-v0.1
+```
+
+SFT (code-interpreter) model evaluation:
+
+```sh
+bash scripts/run_eval.sh tora microsoft/rho-math-7b-interpreter-v0.1
+```
+
+Our reproduced outputs are provided in `rho-1/outputs.zip`.
 
 
 ## 🍀 Contributing
