@@ -41,7 +41,7 @@ Rho-1: Not All Tokens Are What You Need
 Rho-1 base models employ Selective Language Modeling (SLM) for pretraining, which selectively trains on clean and useful tokens that aligned with the desired distribution.
 
 
-### Selective Lanugage Modeling (SLM)
+### Selective Language Modeling (SLM)
 
 <p align="center">
     <img src="./docs/static/images/example.png" width="1000">
