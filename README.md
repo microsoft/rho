@@ -23,7 +23,7 @@ Rho-1: Not All Tokens Are What You Need
 <p align="center">
     <img src="./docs/static/images/acc_vs_tokens_1b_7b.png" width="1000">
         <br>
-    <em>Figure 1: Rho-1 is trained with Selective Language Modeling (SLM). SLM improves average few-shot accuracy on GSM8k and MATH by over 16%, achieving the baseline performance 5-10x faster.</em>
+    <em>Figure 1: Rho-1 is pre-trained with Selective Language Modeling (SLM). SLM improves average few-shot accuracy on GSM8k and MATH by over 16%, achieving the baseline performance 5-10x faster.</em>
 </p>
 
 
@@ -38,7 +38,7 @@ Rho-1: Not All Tokens Are What You Need
 
 ## 💡 Introduction
 
-Rho-1 employs Selective Language Modeling (SLM), which selectively trains on clean and useful tokens that aligned with the desired distribution.
+Rho-1 base models employ Selective Language Modeling (SLM) for pretraining, which selectively trains on clean and useful tokens that aligned with the desired distribution.
 
 
 ### Selective Lanugage Modeling (SLM)
