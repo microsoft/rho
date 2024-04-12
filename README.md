@@ -14,8 +14,7 @@ Rho-1: Not All Tokens Are What You Need
 </div>
 
 <p align="center">
-  <a href="https://microsoft.github.io/rho/rho-1.pdf"><b>[📜 Paper]</b></a> •
-  <!-- <a href="https://arxiv.org/abs/TODO"><b>[📜 Paper]</b></a> • -->
+  <a href="https://arxiv.org/abs/2404.07965"><b>[📜 Paper]</b></a> •
   <a href="https://huggingface.co/microsoft/rho-math-1b-v0.1"><b>[🤗 HF Models]</b></a> •
   <a href="https://github.com/microsoft/rho"><b>[🐱 GitHub]</b></a>
   <!-- <a href="https://twitter.com/TODO"><b>[🐦 Twitter]</b></a> -->
@@ -100,8 +99,16 @@ the rights to use your contribution. For details, visit https://cla.opensource.m
 ## ☕️ Citation
 
 If you find this repository helpful, please consider citing our paper:
+
 ```
-update soon.
+@misc{lin2024rho1,
+      title={Rho-1: Not All Tokens Are What You Need}, 
+      author={Zhenghao Lin and Zhibin Gou and Yeyun Gong and Xiao Liu and Yelong Shen and Ruochen Xu and Chen Lin and Yujiu Yang and Jian Jiao and Nan Duan and Weizhu Chen},
+      year={2024},
+      eprint={2404.07965},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 
