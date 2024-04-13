@@ -99,7 +99,7 @@ Base models (Few-shot CoT):
 | ToRA                         | 70B      | ToRA-69k     | 84.3      | 49.7     | **82.7**  | 86.8      | 93.8      | 74.0       | **67.2**     | **76.9** |
 | DeepSeekMath                 | 7B       | ToRA-69k     | 79.8      | **52.0** | 80.1      | **87.1**  | 93.8      | **85.8**   | 63.1         | 77.4     |
 | [Rho-Math-1B-Interpreter-v0.1](https://huggingface.co/microsoft/rho-math-1b-interpreter-v0.1) | 1B       | ToRA-69k     | 59.4      | 40.6     | 60.7      | 74.2      | 88.6      | 26.7       | 48.1         | 56.9     |
-| [Rho-Math-7B-Interpreter-v0.1]() | 7B       | ToRA-69k     | 81.3      | **51.8** | 80.8      | 85.5      | **94.5**  | 70.1       | 63.1         | 75.3     |
+| [Rho-Math-7B-Interpreter-v0.1](https://huggingface.co/microsoft/rho-math-7b-interpreter-v0.1) | 7B       | ToRA-69k     | 81.3      | **51.8** | 80.8      | 85.5      | **94.5**  | 70.1       | 63.1         | 75.3     |
 
 
 ## 🚀 Quick Start
