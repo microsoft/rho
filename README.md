@@ -16,9 +16,10 @@ Rho-1: Not All Tokens Are What You Need
 <p align="center">
   <a href="https://arxiv.org/abs/2404.07965"><b>[📜 Arxiv]</b></a> •
   <a href="https://huggingface.co/papers/2404.07965"><b>[💬 HF Paper]</b></a> •
-  <a href="https://huggingface.co/microsoft/rho-math-1b-v0.1"><b>[🤗 HF Models]</b></a> •
-  <a href="https://github.com/microsoft/rho"><b>[🐱 GitHub]</b></a>
-  <a href="https://twitter.com/zebgou/status/1778676535404396697"><b>[🐦 Twitter]</b></a>
+  <a href="https://huggingface.co/microsoft/rho-math-1b-v0.1"><b>[🤗 Models]</b></a> •
+  <a href="https://github.com/microsoft/rho"><b>[🐱 GitHub]</b></a> •
+  <a href="https://twitter.com/zebgou/status/1778676535404396697"><b>[🐦 Twitter]</b></a> •
+  <a href="https://huggingface.co/spaces/zubingou/rho-1"><b>[🤖 Gradio Demo]</b></a>
 </p>
 
 <p align="center">
@@ -30,6 +31,7 @@ Rho-1: Not All Tokens Are What You Need
 
 ## 🔥 News
 
+- [2024/04/14] 🚀🚀🚀 We release [Gradio demo of Rho-1 Code Interpreter](https://huggingface.co/spaces/zubingou/rho-1), try it out!
 - [2024/04/12] 🔥🔥🔥 Rho-Math-v0.1 models released at 🤗 HuggingFace! 
     - [Rho-Math-1B](https://huggingface.co/microsoft/rho-math-1b-v0.1) and [Rho-Math-7B](https://huggingface.co/microsoft/rho-math-7b-v0.1) achieve 15.6% and 31.0% few-shot accuracy on MATH dataset, respectively — matching DeepSeekMath with only 3\% of the pretraining tokens.
     - [Rho-Math-1B-Interpreter](https://huggingface.co/microsoft/rho-math-1b-interpreter-v0.1) is the first 1B LLM that achieves over 40% accuracy on MATH.
