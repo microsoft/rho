@@ -18,7 +18,7 @@ Rho-1: Not All Tokens Are What You Need
   <a href="https://huggingface.co/papers/2404.07965"><b>[💬 HF Paper]</b></a> •
   <a href="https://huggingface.co/microsoft/rho-math-1b-v0.1"><b>[🤗 Models]</b></a> •
   <a href="https://github.com/microsoft/rho"><b>[🐱 GitHub]</b></a> •
-  <a href="https://twitter.com/zebgou/status/1778676535404396697"><b>[🐦 Twitter]</b></a> •
+  <!-- <a href="https://twitter.com/zebgou/status/1778676535404396697"><b>[🐦 Twitter]</b></a> • -->
   <!-- <a href="https://huggingface.co/spaces/zubingou/rho-1"><b>[🤖 Gradio Demo]</b></a> -->
 </p>
 
